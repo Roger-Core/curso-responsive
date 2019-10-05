@@ -363,3 +363,18 @@ footer > ul > li:first-of-type {
     display: none;
   }
 }
+
+@media (max-width: 320px) {
+  .top-country-gridarea {
+    display: grid;
+    grid-template-columns: 33vw;
+    grid-template-rows: auto;
+    justify-items: center;
+  }
+  .top-country-gridarea > div{
+    width: 60vw;
+    height: 30vh;
+    text-align: center;
+  }
+  
+}
